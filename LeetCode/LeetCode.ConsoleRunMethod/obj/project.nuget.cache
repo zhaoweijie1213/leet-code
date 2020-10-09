@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4sT8j8fs1QbyBaf6fmcOtMPOc8MzK8gl4rg9ZRVTisQk3JOuGzlOk1pw3JkgEufm17uSTV8qFXCsmJKkGjEYLQ==",
+  "dgSpecHash": "5Z3Wl8T3Iv5CndbZ7YrcBEcR4MXl29mo81GcxxXKJipxsNkbosSM25s/IbmdgVczRy3FGlUyjKgG+c8rNW4yDw==",
   "success": true,
   "projectFilePath": "D:\\Git\\leet-code\\LeetCode\\LeetCode.ConsoleRunMethod\\LeetCode.ConsoleRunMethod.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\QYQ\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

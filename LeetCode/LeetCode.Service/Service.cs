@@ -9,6 +9,7 @@ namespace LeetCode.Service
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
             var s=l1.next;
+            return l1;
         }
         #endregion
     }

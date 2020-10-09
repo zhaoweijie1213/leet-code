@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qzmFjvELscpJn+QovTGCJaew0+gccVV561xcPa2HRLBWe/xjg/n4XF9f0H5ejcH5xwmIZcDKQtUGutqkkwrXrQ==",
+  "dgSpecHash": "/BqE/LomtfXsn8UTI4qRE4v3TSN2kq8gvOmWLdaKS+SlGYTxs9W0szmyMMbiwJb6L8iUiQXjY+iOO9sruhOLkw==",
   "success": true,
   "projectFilePath": "D:\\Git\\leet-code\\LeetCode\\LeetCode\\LeetCode.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\QYQ\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
   "logs": []
 }
