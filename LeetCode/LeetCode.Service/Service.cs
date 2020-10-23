@@ -8,18 +8,18 @@ namespace LeetCode.Service
         #region 
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
-            var s=l1.next;
+            var s = l1.next;
             return l1;
         }
         #endregion
     }
-    
 
-  public class ListNode
+
+    public class ListNode
     {
-      public int val;
-      public ListNode next;
-     public ListNode(int x) { val = x; }
-  }
+        public int val;
+        public ListNode next;
+        public ListNode(int x) { val = x; }
+    }
 
 }
