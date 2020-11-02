@@ -9,7 +9,8 @@ namespace LeetCode.ConsoleRunMethod
     class Program
     {
 
-        private static string s = "首　";
+        private static string s = "{\"code\":\"1\"}";
+        private static string s2 = "eyJjb2RlIjoiMSJ9";
          
         /// <summary>
         /// 
@@ -21,9 +22,11 @@ namespace LeetCode.ConsoleRunMethod
 
           
             Console.WriteLine("----输入信息----");
-            var query=Console.ReadLine();
             var res = ToByte(s);
+            byte[] bytes = Convert.FromBase64String(s2);
+
             Console.WriteLine(JsonConvert.SerializeObject(res));
+            Console.ReadKey(true);
         }
         public static byte[] ToByte(string query)
         {

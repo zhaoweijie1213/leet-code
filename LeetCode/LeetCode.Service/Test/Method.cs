@@ -61,21 +61,26 @@ namespace LeetCode.Service.Test
             {
                 ClubseasonDrawboxreceive model = _context.ClubseasonDrawboxreceive.FirstOrDefault(i => i.Areaid == 100);
                 model.Id = 0;
-                for (int i = 0; i < 10000; i++)
+                //事务
+                using(var transaction = _context.Database.BeginTransaction())
                 {
-                    var info = model;
-                    info.Id = 0;
-                    info.endtime = DateTime.Now;
-                    info.opentime = DateTime.Now;
-                    Random random = new Random();
-                    info.Gameno = DateTime.Now.ToString("yyyyMMddHHmmssfffff");
-                    info.Uid = random.Next(1000,3000);
-                    info.Clubid = random.Next(100000, 100020);
-                    _context.Add(info);
-                    info = null;
-                    logger.LogInformation($"第{i}条");
+                    for (int i = 0; i < 10000*500; i++)
+                    {
+                        var info = model;
+                        info.Id = 0;
+                        info.endtime = DateTime.Now;
+                        info.opentime = DateTime.Now;
+                        Random random = new Random();
+                        info.Gameno = DateTime.Now.ToString("yyyyMMddHHmmssfffff");
+                        info.Uid = random.Next(1000, 3000);
+                        info.Clubid = random.Next(100000, 100020);
+                        _context.Add(info);
+                        info = null;
+                        logger.LogInformation($"第{i}条");
+                        _context.SaveChanges();
+                    }
+                    transaction.CommitAsync();
                 }
-                _context.SaveChanges();
             }
             catch (Exception e)
             {
