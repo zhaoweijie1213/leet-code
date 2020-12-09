@@ -58,7 +58,7 @@ namespace LeetCode
             {
                 //run.run();
                 run.AddData();
-            });
+                                                                                                                                            });
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
