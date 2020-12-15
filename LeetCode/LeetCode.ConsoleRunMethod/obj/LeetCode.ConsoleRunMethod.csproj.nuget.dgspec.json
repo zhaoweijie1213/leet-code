@@ -1,38 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\leet-code\\LeetCode\\LeetCode.ConsoleRunMethod\\LeetCode.ConsoleRunMethod.csproj": {}
+    "F:\\Git\\leet-code\\LeetCode\\LeetCode.ConsoleRunMethod\\LeetCode.ConsoleRunMethod.csproj": {}
   },
   "projects": {
-    "D:\\Git\\leet-code\\LeetCode\\LeetCode.ConsoleRunMethod\\LeetCode.ConsoleRunMethod.csproj": {
+    "F:\\Git\\leet-code\\LeetCode\\LeetCode.ConsoleRunMethod\\LeetCode.ConsoleRunMethod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\leet-code\\LeetCode\\LeetCode.ConsoleRunMethod\\LeetCode.ConsoleRunMethod.csproj",
+        "projectUniqueName": "F:\\Git\\leet-code\\LeetCode\\LeetCode.ConsoleRunMethod\\LeetCode.ConsoleRunMethod.csproj",
         "projectName": "LeetCode.ConsoleRunMethod",
-        "projectPath": "D:\\Git\\leet-code\\LeetCode\\LeetCode.ConsoleRunMethod\\LeetCode.ConsoleRunMethod.csproj",
-        "packagesPath": "C:\\Users\\QYQ\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\leet-code\\LeetCode\\LeetCode.ConsoleRunMethod\\obj\\",
+        "projectPath": "F:\\Git\\leet-code\\LeetCode\\LeetCode.ConsoleRunMethod\\LeetCode.ConsoleRunMethod.csproj",
+        "packagesPath": "C:\\Users\\HIAPAD\\.nuget\\packages\\",
+        "outputPath": "F:\\Git\\leet-code\\LeetCode\\LeetCode.ConsoleRunMethod\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\QYQ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HIAPAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.0.252/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Git\\leet-code\\LeetCode\\LeetCode.Service\\LeetCode.Service.csproj": {
-                "projectPath": "D:\\Git\\leet-code\\LeetCode\\LeetCode.Service\\LeetCode.Service.csproj"
+              "F:\\Git\\leet-code\\LeetCode\\LeetCode.Service\\LeetCode.Service.csproj": {
+                "projectPath": "F:\\Git\\leet-code\\LeetCode\\LeetCode.Service\\LeetCode.Service.csproj"
               }
             }
           }
@@ -45,6 +47,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
@@ -66,36 +69,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Git\\leet-code\\LeetCode\\LeetCode.Data\\LeetCode.Data.csproj": {
+    "F:\\Git\\leet-code\\LeetCode\\LeetCode.Data\\LeetCode.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\leet-code\\LeetCode\\LeetCode.Data\\LeetCode.Data.csproj",
+        "projectUniqueName": "F:\\Git\\leet-code\\LeetCode\\LeetCode.Data\\LeetCode.Data.csproj",
         "projectName": "LeetCode.Data",
-        "projectPath": "D:\\Git\\leet-code\\LeetCode\\LeetCode.Data\\LeetCode.Data.csproj",
-        "packagesPath": "C:\\Users\\QYQ\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\leet-code\\LeetCode\\LeetCode.Data\\obj\\",
+        "projectPath": "F:\\Git\\leet-code\\LeetCode\\LeetCode.Data\\LeetCode.Data.csproj",
+        "packagesPath": "C:\\Users\\HIAPAD\\.nuget\\packages\\",
+        "outputPath": "F:\\Git\\leet-code\\LeetCode\\LeetCode.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\QYQ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HIAPAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.0.252/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -107,22 +112,23 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.9, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.1.9, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.9, )"
+              "version": "[5.0.1, )"
             },
             "MySql.Data.EntityFrameworkCore": {
               "target": "Package",
@@ -144,39 +150,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Git\\leet-code\\LeetCode\\LeetCode.Service\\LeetCode.Service.csproj": {
+    "F:\\Git\\leet-code\\LeetCode\\LeetCode.Service\\LeetCode.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\leet-code\\LeetCode\\LeetCode.Service\\LeetCode.Service.csproj",
+        "projectUniqueName": "F:\\Git\\leet-code\\LeetCode\\LeetCode.Service\\LeetCode.Service.csproj",
         "projectName": "LeetCode.Service",
-        "projectPath": "D:\\Git\\leet-code\\LeetCode\\LeetCode.Service\\LeetCode.Service.csproj",
-        "packagesPath": "C:\\Users\\QYQ\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\leet-code\\LeetCode\\LeetCode.Service\\obj\\",
+        "projectPath": "F:\\Git\\leet-code\\LeetCode\\LeetCode.Service\\LeetCode.Service.csproj",
+        "packagesPath": "C:\\Users\\HIAPAD\\.nuget\\packages\\",
+        "outputPath": "F:\\Git\\leet-code\\LeetCode\\LeetCode.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\QYQ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HIAPAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.0.252/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Git\\leet-code\\LeetCode\\LeetCode.Data\\LeetCode.Data.csproj": {
-                "projectPath": "D:\\Git\\leet-code\\LeetCode\\LeetCode.Data\\LeetCode.Data.csproj"
+              "F:\\Git\\leet-code\\LeetCode\\LeetCode.Data\\LeetCode.Data.csproj": {
+                "projectPath": "F:\\Git\\leet-code\\LeetCode\\LeetCode.Data\\LeetCode.Data.csproj"
               }
             }
           }
@@ -189,10 +197,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.Extensions.Http": {
               "target": "Package",
-              "version": "[3.1.9, )"
+              "version": "[5.0.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -214,7 +223,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
